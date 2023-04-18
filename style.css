@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gainsboro;
+}
+.cabecalho{
+    background-color: rgb(38, 38, 56);
+    display: flex;
+    justify-content: space-around;
+}
+.cabecalho-lista{
+    display: inline-flex;
+    list-style: none;
+    margin: 23px;
+}
+.cabecalho-pesquisa{
+    margin-right: 23px;
+}
+.cabecalho-slogan{
+    color: white;
+    font-size: 19px;
+    margin-right: 45px;
+}
+.search{
+    width: 569px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+
+}
+.botaoPesquisar{
+    color: white;
+    background-color: blue;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.cabecalho-botao{
+    margin-left: 156px;
+}
+.login{
+    font-size: 17px;
+    color: white;
+    background-color: blue;
+    border: 0px;
+    border-radius: 15px;
+    height: 39px;
+}
+
+/* fim do header inicio do site */
+
+.guia{
+    background-color: rgb(49, 49, 62);
+    display: flex;
+}
+.guia-lista{
+    display: inline-flex;
+    list-style: none;
+}
+.buttonGuia{
+    color: white;
+    background-color: rgb(49, 49, 62);
+    border: none;
+    font-size: 14px;
+    margin: 9px;
+    margin-right: 4px;
+}
+
+.buttonGuia :hover{
+    border: 4px;
+    border-color: white;
+    color: darkgrey;
+}
+.produtos{
+    background-color: white;
+    display: flex;
+    margin: 45px;
+}
+.produto{
+    display: inline-flex;
+    margin: 45px;
+}
+ 
