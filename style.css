@@ -80,6 +80,51 @@ body{
     border-color: white;
     color: darkgrey;
 }
+
+/* fim do guia */
+
+/* incio do slide show*/
+.slideshow-container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1600px;
+    height: 400px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 1600px;
+    height: 400px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0) ;
+    
+    
+    color: rgb(230, 184, 78);
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+
+/* inicio do conteudo do site*/
 .h1{
     text-align: center;
     font-size: 34px;
