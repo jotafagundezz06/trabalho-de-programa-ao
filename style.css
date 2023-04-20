@@ -4,7 +4,12 @@
 }
 body{
     background-color: gainsboro;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif
 }
 .cabecalho{
     background-color: rgb(38, 38, 56);
@@ -127,8 +132,8 @@ body{
 /* inicio do conteudo do site*/
 .h1{
     text-align: center;
-    font-size: 34px;
-    padding: 34px;
+    font-size: 40px;
+    padding: 45px;
 }
 .produtos{
     background-color: white;
@@ -140,6 +145,21 @@ body{
     margin: 45px;
 }
 .imgProdutos{
+    width: 25%;
+}
+.imgProdutosDois{
+    width: 220px;
+    height: 270px;
+}
+.imgProdutosTres{
+    width: 45%;
+    height: 80%;
+    
+} 
+.imgProdutosQuatro{
+    width: 25%;
+}
+.imgProdutosCinco{
     width: 25%;
 }
 .produtosList{
