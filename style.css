@@ -4,11 +4,17 @@
 }
 body{
     background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cabecalho{
     background-color: rgb(38, 38, 56);
     display: flex;
     justify-content: space-around;
+}
+.logoUm{
+    width: 8%;
+    height: 5%;
+    padding-top: 12px;
 }
 .cabecalho-lista{
     display: inline-flex;
@@ -21,7 +27,8 @@ body{
 .cabecalho-slogan{
     color: white;
     font-size: 19px;
-    margin-right: 45px;
+    margin-right: 167px;
+    margin-top: 14px;
 }
 .search{
     width: 569px;
@@ -32,7 +39,7 @@ body{
 }
 .botaoPesquisar{
     color: white;
-    background-color: blue;
+    background-color: rgb(230, 184, 78);
     height: 35px;
     border: none;
     border-radius: 5px;
@@ -42,8 +49,8 @@ body{
 }
 .login{
     font-size: 17px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(230, 184, 78);
     border: 0px;
     border-radius: 15px;
     height: 39px;
@@ -68,10 +75,15 @@ body{
     margin-right: 4px;
 }
 
-.buttonGuia :hover{
-    border: 4px;
+.buttonGuia:hover{
+    border: 78px;
     border-color: white;
     color: darkgrey;
+}
+.h1{
+    text-align: center;
+    font-size: 34px;
+    padding: 34px;
 }
 .produtos{
     background-color: white;
@@ -82,4 +94,62 @@ body{
     display: inline-flex;
     margin: 45px;
 }
- 
+.imgProdutos{
+    width: 25%;
+}
+.produtosList{
+    list-style: none;
+    margin: 34px;
+    font-size: 20px;
+}
+.valor{
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+    padding-bottom: 23px;
+}
+.Estoque{
+    padding-bottom: 23px;
+}
+.disp{
+    color: green;
+    font: normal;
+}
+.Descrição{
+    padding-top: 150px;
+}
+.rodape{
+    background-color: rgb(38, 38, 56);
+    text-align: center;
+
+}
+.logoDois{
+    width: 9%;
+    padding: 2%;
+}
+.rodape-lista{
+    color: white;
+    display: inline-flex;
+    margin-bottom: 2%;
+    list-style: none;
+}
+.cat{
+    padding-right: 12px;
+}
+.cat:hover{
+    color: darkgoldenrod;
+}
+.Email{
+    padding-right: 12px;
+}
+.Email:hover{
+    color: darkgoldenrod;
+}
+.redes{
+    padding-right: 12px;
+}
+.redes:hover{
+    color: darkgoldenrod;
+}
+.Empregos:hover{
+    color: darkgoldenrod;
+}
