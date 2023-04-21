@@ -147,15 +147,13 @@ body{
     margin: 45px;
 }
 .imgProdutos{
-    width: 25%;
+    width: 25%
 }
 .imgProdutosDois{
-    width: 220px;
-    height: 270px;
+    width: 40%
 }
 .imgProdutosTres{
-    width: 45%;
-    height: 80%;
+    width: 40%;
     
 } 
 .imgProdutosQuatro{
@@ -182,7 +180,7 @@ body{
     font: normal;
 }
 .Descrição{
-    padding-top: 150px;
+    padding-top: 65px;
 }
 .rodape{
     background-color: rgb(38, 38, 56);
@@ -269,16 +267,36 @@ body{
     }
     .h1{
         font-size: 30px;
+        padding: 13px;
+    }
+    .produtos{
+        margin: 13px;
     }
     .produtosList{
         list-style: none;
-        margin: 3px;
+        margin: 17px;
         font-size: 10px;
     }
     .imgProdutos{
         height: 100%;
         width: 50%;
         }
+    .imgProdutosDois{
+        height: 100%;
+        width: 50%;
+    }
+    .imgProdutosTres{
+        height: 100%;
+        width: 50%;
+    }
+    .imgProdutosQuatro{
+        height: 100%;
+        width: 50%;
+    }
+    .imgProdutosCinco{
+        height: 100%;
+        width: 50%;
+    }
     .Descrição{
         padding-top: 10px;
     }
