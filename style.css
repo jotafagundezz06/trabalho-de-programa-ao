@@ -27,7 +27,7 @@ body{
     margin: 23px;
 }
 .cabecalho-pesquisa{
-    margin-right: 23px;
+    margin-right: 0px;
 }
 .cabecalho-slogan{
     color: white;
@@ -36,18 +36,20 @@ body{
     margin-top: 14px;
 }
 .search{
-    width: 569px;
-    height: 35px;
+    width: 636px;
+    height: 39px;
     border: none;
     border-radius: 5px;
 
 }
-.botaoPesquisar{
-    color: white;
+
+.lupa{
     background-color: rgb(230, 184, 78);
-    height: 35px;
-    border: none;
+    padding-top: 4px;
+    width: 20px;
+    padding: 10px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .cabecalho-botao{
     margin-left: 156px;
@@ -218,3 +220,74 @@ body{
 .Empregos:hover{
     color: darkgoldenrod;
 }
+/* parte do celular*/
+
+@media screen and (max-width: 580px) {
+    .logoUm{
+        width: 119px;
+        height: 59px;
+        padding-top: 12px;
+        padding-left: 450px;
+    }
+    .cabecalho-lista{
+    margin-left: 267px;
+    }
+
+    .cabecalho-slogan{
+        font-size: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .search{
+        width: 0px;
+        height: 0px;
+    }
+    .lupa{
+        width: 0px;
+    }
+    .cabecalho-botao{
+        width: 0px;
+    }
+    .login{
+        width: 0px;
+    }
+    .buttonGuia{
+        color: white;
+        background-color: rgb(49, 49, 62);
+        border: none;
+        font-size: 0px;
+        margin: 9px;
+        margin-right: 2px
+    }
+    .slideshow-container{
+        width: 100%;
+        height: 100%;
+    }
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+    .h1{
+        font-size: 30px;
+    }
+    .produtosList{
+        list-style: none;
+        margin: 3px;
+        font-size: 10px;
+    }
+    .imgProdutos{
+        height: 100%;
+        width: 50%;
+        }
+    .Descrição{
+        padding-top: 10px;
+    }
+    .logoDois{
+        width: 23%;
+        padding-top: 6%;
+    }
+    .rodape-lista{
+        font-size: 9px;
+        padding-bottom: 5px;
+    }
+ }
