@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gainsboro;
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif
+}
+.cabecalho{
+    background-color: rgb(38, 38, 56);
+    display: flex;
+    justify-content: space-around;
+}
+.logoUm{
+    width: 8%;
+    height: 5%;
+    padding-top: 12px;
+}
+.cabecalho-lista{
+    display: inline-flex;
+    list-style: none;
+    margin: 23px;
+}
+.cabecalho-pesquisa{
+    margin-right: 0px;
+}
+.cabecalho-slogan{
+    color: white;
+    font-size: 19px;
+    margin-right: 167px;
+    margin-top: 14px;
+}
+.search{
+    width: 636px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.lupa{
+    background-color: rgb(230, 184, 78);
+    padding-top: 4px;
+    width: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cabecalho-botao{
+    margin-left: 156px;
+}
+.login{
+    font-size: 17px;
+    color: black;
+    background-color: rgb(230, 184, 78);
+    border: 0px;
+    border-radius: 15px;
+    height: 39px;
+}
+
+/* fim do header inicio do site */
+
+.guia{
+    background-color: rgb(49, 49, 62);
+    display: flex;
+}
+.guia-lista{
+    display: inline-flex;
+    list-style: none;
+}
+.buttonGuia{
+    color: white;
+    background-color: rgb(49, 49, 62);
+    border: none;
+    font-size: 14px;
+    margin: 9px;
+    margin-right: 4px;
+}
+
+.buttonGuia:hover{
+    border: 78px;
+    border-color: white;
+    color: darkgrey;
+}
+
+/* fim do guia */
+
+/* incio do slide show*/
+.slideshow-container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1600px;
+    height: 400px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 1600px;
+    height: 400px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0) ;
+    
+    
+    color: rgb(230, 184, 78);
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+
+/* inicio do conteudo do site*/
+.h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 45px;
+}
+.produtos{
+    background-color: white;
+    display: flex;
+    margin: 45px;
+}
+.produto{
+    display: inline-flex;
+    margin: 45px;
+}
+.imgProdutos{
+    width: 25%
+}
+.imgProdutosDois{
+    width: 40%
+}
+.imgProdutosTres{
+    width: 40%;
+    
+} 
+.imgProdutosQuatro{
+    width: 25%;
+}
+.imgProdutosCinco{
+    width: 25%;
+}
+.produtosList{
+    list-style: none;
+    margin: 34px;
+    font-size: 20px;
+}
+.valor{
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+    padding-bottom: 23px;
+}
+.Estoque{
+    padding-bottom: 23px;
+}
+.disp{
+    color: green;
+    font: normal;
+}
+.Descrição{
+    padding-top: 65px;
+}
+.rodape{
+    background-color: rgb(38, 38, 56);
+    text-align: center;
+
+}
+.logoDois{
+    width: 9%;
+    padding: 2%;
+}
+.rodape-lista{
+    color: white;
+    display: inline-flex;
+    margin-bottom: 2%;
+    list-style: none;
+}
+.cat{
+    padding-right: 12px;
+}
+.cat:hover{
+    color: darkgoldenrod;
+}
+.Email{
+    padding-right: 12px;
+}
+.Email:hover{
+    color: darkgoldenrod;
+}
+.redes{
+    padding-right: 12px;
+}
+.redes:hover{
+    color: darkgoldenrod;
+}
+.Empregos:hover{
+    color: darkgoldenrod;
+}
+/* parte do celular*/
+
+@media screen and (max-width: 580px) {
+    .logoUm{
+        width: 119px;
+        height: 59px;
+        padding-top: 12px;
+        padding-left: 450px;
+    }
+    .cabecalho-lista{
+    margin-left: 267px;
+    }
+
+    .cabecalho-slogan{
+        font-size: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .search{
+        width: 0px;
+        height: 0px;
+    }
+    .lupa{
+        width: 0px;
+    }
+    .cabecalho-botao{
+        width: 0px;
+    }
+    .login{
+        width: 0px;
+    }
+    .buttonGuia{
+        color: white;
+        background-color: rgb(49, 49, 62);
+        border: none;
+        font-size: 0px;
+        margin: 9px;
+        margin-right: 2px
+    }
+    .slideshow-container{
+        width: 100%;
+        height: 100%;
+    }
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+    .h1{
+        font-size: 30px;
+        padding: 13px;
+    }
+    .produtos{
+        margin: 13px;
+    }
+    .produtosList{
+        list-style: none;
+        margin: 17px;
+        font-size: 10px;
+    }
+    .imgProdutos{
+        height: 100%;
+        width: 50%;
+        }
+    .imgProdutosDois{
+        height: 100%;
+        width: 50%;
+    }
+    .imgProdutosTres{
+        height: 100%;
+        width: 50%;
+    }
+    .imgProdutosQuatro{
+        height: 100%;
+        width: 50%;
+    }
+    .imgProdutosCinco{
+        height: 100%;
+        width: 50%;
+    }
+    .Descrição{
+        padding-top: 10px;
+    }
+    .logoDois{
+        width: 23%;
+        padding-top: 6%;
+    }
+    .rodape-lista{
+        font-size: 9px;
+        padding-bottom: 5px;
+    }
+ }
